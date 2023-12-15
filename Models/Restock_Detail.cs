@@ -19,7 +19,6 @@ namespace SBIT3J_SuperSystem_Final.Models
         public Nullable<int> Product_ID { get; set; }
         public Nullable<int> Quantity_Added { get; set; }
         public Nullable<decimal> Total_Amount { get; set; }
-    
         public virtual Product_Info Product_Info { get; set; }
         public virtual Restock Restock { get; set; }
     }

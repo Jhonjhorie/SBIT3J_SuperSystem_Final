@@ -35,6 +35,8 @@ namespace SBIT3J_SuperSystem_Final.Models
         public Nullable<decimal> Price { get; set; }
         public Nullable<int> Stock_Level { get; set; }
         public Nullable<decimal> Capital_Price { get; set; }
+
+
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Loss_Damages> Loss_Damages { get; set; }
